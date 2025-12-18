@@ -6,7 +6,7 @@ export default function Hero() {
         <section id="home" className="relative">
             <div className="pointer-events-none absolute inset-0 -z-10">
                 <div
-                    className="absolute left-1/2 -top0-40 h-96 w-[24rem] -translate-x-1/2 rounded-full blur-3xl opacity-30
+                    className="absolute left-1/2 -top-40 h-96 w-[24rem] -translate-x-1/2 rounded-full blur-3xl opacity-30
                   bg-linear-to-r from-indigo-500 via-sky-500 to-emerald-500"
                 />
             </div>
