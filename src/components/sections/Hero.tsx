@@ -16,30 +16,30 @@ export default function Hero() {
                         <Badge variant="secondary">
                             React • TypeScript • Tailwind
                         </Badge>
-                        <Badge variant="outline">Portfólió</Badge>
+                        <Badge variant="outline">Portfolio</Badge>
                     </div>
 
                     <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-                        Szia, Lajos vagyok.
+                        Hallo, ich bin Lajos.
                     </h1>
 
                     <p className="max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-                        Junior fejlesztőként tanulok és gyakorlok: modern web
-                        UI-k, tiszta komponensek, és jól felépített projektek.
-                        Itt találod a munkáimat és a fejlődésemet.
+                        Als Junior-Entwickler lerne und übe ich: moderne Web-UIs,
+                        saubere Komponenten und gut strukturierte Projekte.
+                        Hier findest du meine Arbeiten und meinen Fortschritt.
                     </p>
 
                     <div className="flex flex-wrap gap-3">
                         <Button asChild>
-                            <a href="#projects">Projektek</a>
+                            <a href="#projects">Projekte</a>
                         </Button>
                         <Button variant="outline" asChild>
-                            <a href="#contact">Kapcsolat</a>
+                            <a href="#contact">Kontakt</a>
                         </Button>
                     </div>
 
                     <div className="pt-4 text-sm text-muted-foreground">
-                        Elérhető:{" "}
+                        Erreichbar:{" "}
                         <a
                             className="underline underline-offset-4"
                             href="mailto:email@domain.hu"
