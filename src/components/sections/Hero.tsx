@@ -44,6 +44,7 @@ export default function Hero() {
                             className="underline underline-offset-4"
                             href="mailto:email@domain.hu"
                         >
+                            {/* TODO: später tauschen */}
                             email@domain.hu
                         </a>
                     </div>
